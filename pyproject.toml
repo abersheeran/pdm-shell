@@ -3,13 +3,13 @@ authors = [
   {name = "abersheeran", email = "me@abersheeran.com"},
 ]
 dependencies = [
-  "pdm~=1.8",
+  "pdm>=1.8",
 ]
 description = "Use `pdm shell` set PATH and PYTHONPATH in the current shell"
 license = {text = "Apache2.0"}
 name = "pdm-shell"
 requires-python = ">=3.7"
-version = "1.0.0"
+version = "1.1.0"
 
 [project.urls]
 homepage = "https://github.com/abersheeran/pdm-shell"
